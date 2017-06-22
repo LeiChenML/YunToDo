@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1868F06D1EFBBD0D00486993 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1868F06C1EFBBD0D00486993 /* 0.jpg */; };
+		186B41F51EFA94AB00BB7605 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B41F41EFA94AB00BB7605 /* loginViewController.swift */; };
+		186B41F71EFA96E700BB7605 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B41F61EFA96E700BB7605 /* Global.swift */; };
+		1874465A1EFBB54000EADE11 /* 148647.gif in Resources */ = {isa = PBXBuildFile; fileRef = 187446581EFBB54000EADE11 /* 148647.gif */; };
+		18B1DFE01EF68C1700723A27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1DFDF1EF68C1700723A27 /* AppDelegate.swift */; };
+		18B1DFE21EF68C1700723A27 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1DFE11EF68C1700723A27 /* FirstViewController.swift */; };
+		18B1DFE41EF68C1700723A27 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1DFE31EF68C1700723A27 /* SecondViewController.swift */; };
+		18B1DFE71EF68C1700723A27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B1DFE51EF68C1700723A27 /* Main.storyboard */; };
+		18B1DFE91EF68C1700723A27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B1DFE81EF68C1700723A27 /* Assets.xcassets */; };
+		18B1DFEC1EF68C1700723A27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B1DFEA1EF68C1700723A27 /* LaunchScreen.storyboard */; };
+		18B1DFF71EF68C1800723A27 /* YunToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1DFF61EF68C1800723A27 /* YunToDoTests.swift */; };
+		18B1E0061EF68F1700723A27 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1E0051EF68F1700723A27 /* TaskManager.swift */; };
+		18B1E0081EF6A73B00723A27 /* ServerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1E0071EF6A73B00723A27 /* ServerHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18B1DFF31EF68C1800723A27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18B1DFD41EF68C1700723A27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18B1DFDB1EF68C1700723A27;
+			remoteInfo = YunToDo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1868F06C1EFBBD0D00486993 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		186B41F41EFA94AB00BB7605 /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		186B41F61EFA96E700BB7605 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		187446581EFBB54000EADE11 /* 148647.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 148647.gif; sourceTree = "<group>"; };
+		18B1DFDC1EF68C1700723A27 /* YunToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YunToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B1DFDF1EF68C1700723A27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18B1DFE11EF68C1700723A27 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		18B1DFE31EF68C1700723A27 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		18B1DFE61EF68C1700723A27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18B1DFE81EF68C1700723A27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18B1DFEB1EF68C1700723A27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18B1DFED1EF68C1700723A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B1DFF21EF68C1800723A27 /* YunToDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YunToDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B1DFF61EF68C1800723A27 /* YunToDoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YunToDoTests.swift; sourceTree = "<group>"; };
+		18B1DFF81EF68C1800723A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B1E0051EF68F1700723A27 /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
+		18B1E0071EF6A73B00723A27 /* ServerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerHelper.swift; sourceTree = "<group>"; };
+		18B1E0091EF6A74100723A27 /* YunToDo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YunToDo-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18B1DFD91EF68C1700723A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B1DFEF1EF68C1800723A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1874464A1EFBABBE00EADE11 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				1868F06C1EFBBD0D00486993 /* 0.jpg */,
+				187446581EFBB54000EADE11 /* 148647.gif */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		18B1DFD31EF68C1700723A27 = {
+			isa = PBXGroup;
+			children = (
+				18B1DFDE1EF68C1700723A27 /* YunToDo */,
+				18B1DFF51EF68C1800723A27 /* YunToDoTests */,
+				18B1DFDD1EF68C1700723A27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18B1DFDD1EF68C1700723A27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18B1DFDC1EF68C1700723A27 /* YunToDo.app */,
+				18B1DFF21EF68C1800723A27 /* YunToDoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18B1DFDE1EF68C1700723A27 /* YunToDo */ = {
+			isa = PBXGroup;
+			children = (
+				1874464A1EFBABBE00EADE11 /* image */,
+				186B41F61EFA96E700BB7605 /* Global.swift */,
+				18B1E0071EF6A73B00723A27 /* ServerHelper.swift */,
+				18B1DFDF1EF68C1700723A27 /* AppDelegate.swift */,
+				18B1E0091EF6A74100723A27 /* YunToDo-Bridging-Header.h */,
+				18B1DFE11EF68C1700723A27 /* FirstViewController.swift */,
+				18B1DFE31EF68C1700723A27 /* SecondViewController.swift */,
+				186B41F41EFA94AB00BB7605 /* loginViewController.swift */,
+				18B1E0051EF68F1700723A27 /* TaskManager.swift */,
+				18B1DFE51EF68C1700723A27 /* Main.storyboard */,
+				18B1DFE81EF68C1700723A27 /* Assets.xcassets */,
+				18B1DFEA1EF68C1700723A27 /* LaunchScreen.storyboard */,
+				18B1DFED1EF68C1700723A27 /* Info.plist */,
+			);
+			path = YunToDo;
+			sourceTree = "<group>";
+		};
+		18B1DFF51EF68C1800723A27 /* YunToDoTests */ = {
+			isa = PBXGroup;
+			children = (
+				18B1DFF61EF68C1800723A27 /* YunToDoTests.swift */,
+				18B1DFF81EF68C1800723A27 /* Info.plist */,
+			);
+			path = YunToDoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18B1DFDB1EF68C1700723A27 /* YunToDo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B1DFFB1EF68C1800723A27 /* Build configuration list for PBXNativeTarget "YunToDo" */;
+			buildPhases = (
+				18B1DFD81EF68C1700723A27 /* Sources */,
+				18B1DFD91EF68C1700723A27 /* Frameworks */,
+				18B1DFDA1EF68C1700723A27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YunToDo;
+			productName = YunToDo;
+			productReference = 18B1DFDC1EF68C1700723A27 /* YunToDo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18B1DFF11EF68C1800723A27 /* YunToDoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B1DFFE1EF68C1800723A27 /* Build configuration list for PBXNativeTarget "YunToDoTests" */;
+			buildPhases = (
+				18B1DFEE1EF68C1800723A27 /* Sources */,
+				18B1DFEF1EF68C1800723A27 /* Frameworks */,
+				18B1DFF01EF68C1800723A27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18B1DFF41EF68C1800723A27 /* PBXTargetDependency */,
+			);
+			name = YunToDoTests;
+			productName = YunToDoTests;
+			productReference = 18B1DFF21EF68C1800723A27 /* YunToDoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18B1DFD41EF68C1700723A27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = NJU.EE;
+				TargetAttributes = {
+					18B1DFDB1EF68C1700723A27 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UDKZAJWF43;
+						ProvisioningStyle = Automatic;
+					};
+					18B1DFF11EF68C1800723A27 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18B1DFDB1EF68C1700723A27;
+					};
+				};
+			};
+			buildConfigurationList = 18B1DFD71EF68C1700723A27 /* Build configuration list for PBXProject "YunToDo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18B1DFD31EF68C1700723A27;
+			productRefGroup = 18B1DFDD1EF68C1700723A27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18B1DFDB1EF68C1700723A27 /* YunToDo */,
+				18B1DFF11EF68C1800723A27 /* YunToDoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18B1DFDA1EF68C1700723A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1874465A1EFBB54000EADE11 /* 148647.gif in Resources */,
+				1868F06D1EFBBD0D00486993 /* 0.jpg in Resources */,
+				18B1DFEC1EF68C1700723A27 /* LaunchScreen.storyboard in Resources */,
+				18B1DFE91EF68C1700723A27 /* Assets.xcassets in Resources */,
+				18B1DFE71EF68C1700723A27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B1DFF01EF68C1800723A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B1DFD81EF68C1700723A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B1DFE41EF68C1700723A27 /* SecondViewController.swift in Sources */,
+				18B1E0081EF6A73B00723A27 /* ServerHelper.swift in Sources */,
+				186B41F51EFA94AB00BB7605 /* loginViewController.swift in Sources */,
+				18B1DFE01EF68C1700723A27 /* AppDelegate.swift in Sources */,
+				18B1E0061EF68F1700723A27 /* TaskManager.swift in Sources */,
+				18B1DFE21EF68C1700723A27 /* FirstViewController.swift in Sources */,
+				186B41F71EFA96E700BB7605 /* Global.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B1DFEE1EF68C1800723A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B1DFF71EF68C1800723A27 /* YunToDoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18B1DFF41EF68C1800723A27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18B1DFDB1EF68C1700723A27 /* YunToDo */;
+			targetProxy = 18B1DFF31EF68C1800723A27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18B1DFE51EF68C1700723A27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B1DFE61EF68C1700723A27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18B1DFEA1EF68C1700723A27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B1DFEB1EF68C1700723A27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18B1DFF91EF68C1800723A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18B1DFFA1EF68C1800723A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18B1DFFC1EF68C1800723A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UDKZAJWF43;
+				INFOPLIST_FILE = YunToDo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.nju.YunToDo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		18B1DFFD1EF68C1800723A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UDKZAJWF43;
+				INFOPLIST_FILE = YunToDo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.nju.YunToDo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		18B1DFFF1EF68C1800723A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YunToDoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.nju.YunToDoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YunToDo.app/YunToDo";
+			};
+			name = Debug;
+		};
+		18B1E0001EF68C1800723A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YunToDoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.nju.YunToDoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YunToDo.app/YunToDo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B1DFD71EF68C1700723A27 /* Build configuration list for PBXProject "YunToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B1DFF91EF68C1800723A27 /* Debug */,
+				18B1DFFA1EF68C1800723A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B1DFFB1EF68C1800723A27 /* Build configuration list for PBXNativeTarget "YunToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B1DFFC1EF68C1800723A27 /* Debug */,
+				18B1DFFD1EF68C1800723A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B1DFFE1EF68C1800723A27 /* Build configuration list for PBXNativeTarget "YunToDoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B1DFFF1EF68C1800723A27 /* Debug */,
+				18B1E0001EF68C1800723A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18B1DFD41EF68C1700723A27 /* Project object */;
+}
